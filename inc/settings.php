@@ -8,13 +8,13 @@ final class Settings {
         $this->lang = 'en_US.utf8';
 
         // Database information
-        $this->host = '173.212.218.10';
+        $this->host = 'host';
         $this->port = 3306;
 
-        $database = 's1_vincimc';
+        $database = 'db';
 
-        $username = 'u1_8V6PUaRDkz';
-        $password = '6^i6^HIibFCctZf.YCLZVWhF';
+        $username = 'root';
+        $password = 'pw';
 
         // If you set a table prefix in config.yml, set it here as well
         $this->table_prefix = "litebans_";
